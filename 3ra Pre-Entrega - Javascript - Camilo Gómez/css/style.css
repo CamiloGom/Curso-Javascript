@@ -1,0 +1,53 @@
+body {
+    flex-direction: column;
+    background-color: #efefef;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    background-color: rgb(65, 94, 121)
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+h2 {
+    text-align: center;
+}
+.cajas {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 30px;
+    
+}
+.cajas input {
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+}
+.botones {
+    position: relative;
+    background-color: cadetblue;
+    border-color: gray;
+    width: 200px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.ocultar {
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.verde{
+    color: rgb(31, 186, 31);
+}

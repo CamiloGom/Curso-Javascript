@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Pre-Entrega Nro.3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PRE-ENTREGA Nro. 3 - Camilo Gómez</h1>
+    </header>
+    <main class="container">
+      <div class="cajas">
+        <h2>Simulador de inversiones en plazo fijo</h2>
+        <p>Observá cuanto ganarías con tu inversión</p>
+        <form>
+          <label for="montoInvertir">Monto a Invertir</label>
+          <input id="montoInvertir" type="number" name="monto" />
+          <br />
+          <br />
+          <label for="tasaAnual">Ingrese la Tasa de Interes Anual</label>
+          <input id="tasaAnual" type="number" name="interes" />
+          <br />
+          <br />
+          <label for="tiempoMeses"
+            >Indique los meses en los que mantendrá su inversión</label
+          >
+          <input id="tiempoMeses" type="number" name="tiempoMeses" />
+          <br />
+          <br />
+          <button class="botones" type="button" onclick="calcular()">
+            Calcular
+          </button>
+        </form>
+        <button class="botones" type="button" onclick="verUltimoCalculo()">
+          Ver Último Cálculo
+        </button>
+      </div>
+      <div id="respuesta" class="ocultar"></div>
+      <div id="historial" class="ocultar"></div>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
