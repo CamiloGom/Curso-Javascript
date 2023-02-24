@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tabla.css" />
+    <link rel="icon" href="img/favicon.ico" />
+    <title>Proyecto Final</title>
+  </head>
+  <body>
+    <header class="head">
+      <h1>CALCULADORA DE INTERESES EN PLAZOS FIJOS</h1>
+      <h2>Proyecto Final - Curso Javascript - Coder House</h2>
+    </header>
+    <main>
+      <!--  Calculadora   -->
+      <div class="calculadora" id="calculadora">
+        <label for="monto" class="centrarItems texto"
+          >Monto que desea invertir</label
+        >
+        <input
+          id="monto"
+          type="number"
+          class="input centrarItems"
+          placeholder="Ingrese el monto"
+        />
+        <label for="banco" class="centrarItems texto"
+          >Seleccione su Entidad Finaciera</label
+        >
+        <div class="centrarItems">
+          <select
+            name="interesAnual"
+            id="banco"
+            class="input centrarItems"
+          ></select>
+          <button id="btnAgregarBanco" class="boton">Agregar</button>
+          <label for="nuevoBanco" class="oculto" id="textoNombre"
+            >Nombre de su entidad Financiera:</label
+          >
+          <input
+            type="text"
+            id="nuevoBanco"
+            class="input centrarItems oculto"
+          />
+          <label for="nuevoBanco" class="oculto" id="numeroInteres"
+            >Interes anual que ofrece:</label
+          >
+          <input
+            type="number"
+            id="nuevoInteres"
+            class="input centrarItems oculto"
+          />
+          <button id="btnAceptar" class="boton oculto">Aceptar</button>
+          <button id="btnCancelar" class="boton oculto">Cancelar</button>
+        </div>
+
+        <label for="meses" class="centrarItems texto"
+          >Indique el tiempo que mantendra su inversión en meses</label
+        >
+        <input
+          id="meses"
+          type="number"
+          placeholder="Meses"
+          class="input centrarItems"
+        />
+        <button id="btnCalcular" class="boton">Calcular</button>
+      </div>
+      <!-- Tablas de respuesta a la Calculadora -->
+      <div id="respuesta" class="">
+        <table id="tabla1" class="oculto"></table>
+        <table id="tabla2" class="oculto"></table>
+      </div>
+    </main>
+    <footer><p>Desarrolado por Camilo Gómez</p></footer>
+  </body>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

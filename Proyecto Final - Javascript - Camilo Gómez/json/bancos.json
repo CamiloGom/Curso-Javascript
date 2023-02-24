@@ -1,0 +1,37 @@
+[
+    {
+        "nombreBanco": "Mercado Pago",
+        "interesAnual": 62.5 
+    },
+    {
+        "nombreBanco": "Macro", 
+        "interesAnual": 75 
+    },
+    {
+        "nombreBanco": "BBVA", 
+        "interesAnual": 75 
+    },
+    {
+        "nombreBanco": "Banco Galicia",
+        "interesAnual": 75 
+    },
+    {
+        "nombreBanco": "Santander Rio",
+        "interesAnual": 75 
+    }, 
+    {
+        "nombreBanco": "BNA",
+        "interesAnual": 75 
+    },
+    {
+        "nombreBanco": "BANCOR",
+        "interesAnual": 75  
+    },
+    {
+        "nombreBanco": "CITIBANK",
+        "interesAnual": 75  
+    },
+    {
+        "nombreBanco": "ICBC",
+        "interesAnual": 75  
+    }]

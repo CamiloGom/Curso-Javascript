@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #043034;
+    color: #c39721;
+}
+.head h2 {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-image: url(../img/fondo2.jpg); 
+    background-size:cover ;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.calculadora{
+    width: 500px;
+    background-color: #043034d5;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2px;
+}
+.centrarItems {
+ width: 75%;
+ margin: 10px auto;
+}
+.texto{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e0c878;
+}
+.input {
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 3px;
+    font-size: large;
+    background-color: #e0dfda;
+    
+}
+.opt{
+    background-color: rgba(124, 116, 116, 0.204);
+}
+.boton {
+    width: 30%;
+    height: 35px;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px 1px ;
+    color: #c6a847;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover {
+    color: black;
+    background-color: #ffffff;
+    box-shadow: 2px 1px;
+    transition: ease-in-out 0.3s;
+}
+#btnAgregarBanco {
+    font-size: 15px;
+    width: 15%
+}
+#btnAceptar {
+    background-color: rgb(95, 213, 95);
+    color: #000000;
+}
+#btnCancelar {
+    background-color: rgb(205, 62, 62);
+    color: #000000;
+}
+#btnAceptar:hover {
+    background-color: rgb(62, 249, 62);
+    transition: ease-in-out 0.3s;
+}
+#btnCancelar:hover {
+    background-color: rgb(231, 49, 49);
+    transition: ease-in-out 0.3s;
+}
+.oculto{
+    display: none;
+}
+.nuevoBanco{
+    display: inline;
+}
+.textoNuevoBanco{
+    display: block;
+    font-size: large;
+    color: #e3b930;
+}
+.table1{
+    margin-top: 40px;
+    border-collapse: collapse;    
+}
+.caption1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.th1 {
+    background-color: rgba(124, 116, 116, 0.552);
+}
+.th1,.td1 {
+    border: solid 2px black ;
+    padding: 8px;
+}
+.tr1{
+    background-color: #e0dfda;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #043034;
+    color: #e0c878;
+}
